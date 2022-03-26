@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/MOBEN/static/css/main.dd13531e.chunk.css",
-    "main.js": "/MOBEN/static/js/main.0aef0010.chunk.js",
-    "main.js.map": "/MOBEN/static/js/main.0aef0010.chunk.js.map",
+    "main.css": "/MOBEN/static/css/main.edd6bf73.chunk.css",
+    "main.js": "/MOBEN/static/js/main.4c326da3.chunk.js",
+    "main.js.map": "/MOBEN/static/js/main.4c326da3.chunk.js.map",
     "runtime-main.js": "/MOBEN/static/js/runtime-main.de3e48d1.js",
     "runtime-main.js.map": "/MOBEN/static/js/runtime-main.de3e48d1.js.map",
     "static/js/2.04c5ef2a.chunk.js": "/MOBEN/static/js/2.04c5ef2a.chunk.js",
     "static/js/2.04c5ef2a.chunk.js.map": "/MOBEN/static/js/2.04c5ef2a.chunk.js.map",
     "index.html": "/MOBEN/index.html",
-    "precache-manifest.8f93729a5f25aa653e633e6d97c6fcd1.js": "/MOBEN/precache-manifest.8f93729a5f25aa653e633e6d97c6fcd1.js",
+    "precache-manifest.b38a01d8beda1d2671eaad62b9141a80.js": "/MOBEN/precache-manifest.b38a01d8beda1d2671eaad62b9141a80.js",
     "service-worker.js": "/MOBEN/service-worker.js",
-    "static/css/main.dd13531e.chunk.css.map": "/MOBEN/static/css/main.dd13531e.chunk.css.map",
+    "static/css/main.edd6bf73.chunk.css.map": "/MOBEN/static/css/main.edd6bf73.chunk.css.map",
     "static/js/2.04c5ef2a.chunk.js.LICENSE.txt": "/MOBEN/static/js/2.04c5ef2a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.de3e48d1.js",
     "static/js/2.04c5ef2a.chunk.js",
-    "static/css/main.dd13531e.chunk.css",
-    "static/js/main.0aef0010.chunk.js"
+    "static/css/main.edd6bf73.chunk.css",
+    "static/js/main.4c326da3.chunk.js"
   ]
 }

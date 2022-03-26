@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0354bbdbefe821d73ae36e678461a1ad",
+    "revision": "a294dc69bfd873ec9533aaa7f6d3e800",
     "url": "/MOBEN/index.html"
   },
   {
-    "revision": "d8bfa5a6fa49d7fa95f0",
-    "url": "/MOBEN/static/css/main.dd13531e.chunk.css"
+    "revision": "666d28bfb53c54660cab",
+    "url": "/MOBEN/static/css/main.edd6bf73.chunk.css"
   },
   {
     "revision": "8fc583230e59ae6ef743",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MOBEN/static/js/2.04c5ef2a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d8bfa5a6fa49d7fa95f0",
-    "url": "/MOBEN/static/js/main.0aef0010.chunk.js"
+    "revision": "666d28bfb53c54660cab",
+    "url": "/MOBEN/static/js/main.4c326da3.chunk.js"
   },
   {
     "revision": "6ab31603947fd0101583",
