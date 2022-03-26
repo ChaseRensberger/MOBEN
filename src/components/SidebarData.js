@@ -21,11 +21,5 @@ export const SidebarData = [
     path: '/products',
     icon: <IoIcons.IoIosAnalytics />,
     cName: 'nav-text'
-  },
-  {
-    title: 'Settings',
-    path: '/products',
-    icon: <IoIcons.IoIosSettings />,
-    cName: 'nav-text'
-  },
+  }
 ];
