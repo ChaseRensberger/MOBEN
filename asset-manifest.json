@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/MOBEN/static/css/main.ecfefc32.chunk.css",
+    "main.js": "/MOBEN/static/js/main.0aef0010.chunk.js",
+    "main.js.map": "/MOBEN/static/js/main.0aef0010.chunk.js.map",
+    "runtime-main.js": "/MOBEN/static/js/runtime-main.de3e48d1.js",
+    "runtime-main.js.map": "/MOBEN/static/js/runtime-main.de3e48d1.js.map",
+    "static/js/2.04c5ef2a.chunk.js": "/MOBEN/static/js/2.04c5ef2a.chunk.js",
+    "static/js/2.04c5ef2a.chunk.js.map": "/MOBEN/static/js/2.04c5ef2a.chunk.js.map",
+    "index.html": "/MOBEN/index.html",
+    "precache-manifest.0137731f96cd40e5475bcb6f3cf26ef2.js": "/MOBEN/precache-manifest.0137731f96cd40e5475bcb6f3cf26ef2.js",
+    "service-worker.js": "/MOBEN/service-worker.js",
+    "static/css/main.ecfefc32.chunk.css.map": "/MOBEN/static/css/main.ecfefc32.chunk.css.map",
+    "static/js/2.04c5ef2a.chunk.js.LICENSE.txt": "/MOBEN/static/js/2.04c5ef2a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de3e48d1.js",
+    "static/js/2.04c5ef2a.chunk.js",
+    "static/css/main.ecfefc32.chunk.css",
+    "static/js/main.0aef0010.chunk.js"
+  ]
+}
