@@ -1,12 +1,5 @@
 import React from 'react';
 
-function Reports() {
-  return (
-    <div className='reports'>
-      <h1>Analytics</h1>
-    </div>
-  );
-}
 
 const Analytics = () => {
   return (
@@ -16,4 +9,4 @@ const Analytics = () => {
   );
 }
 
-export default Reports;
+export default Analytics;
