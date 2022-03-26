@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MOBEN/precache-manifest.b38a01d8beda1d2671eaad62b9141a80.js"
+  "/MOBEN/precache-manifest.d2486b0551ba847a3015a44e40218cf5.js"
 );
 
 self.addEventListener('message', (event) => {
