@@ -11,10 +11,10 @@ const Transactions = () => {
   return (
     <Card sx={{ minWidth: 400 }}>
       <CardContent>
-        <Typography sx={{ fontSize: 14 }} color="text.secondary">
+        <Typography sx={{ fontSize: 14 }} color="text.primary">
           Transactions
         </Typography>
-        <Typography variant="h5" component="div">
+        <Typography variant="h5">
           Most Recent
         </Typography>
         <Divider />
