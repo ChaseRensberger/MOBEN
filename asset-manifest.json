@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/MOBEN/static/css/main.a07efd1a.chunk.css",
-    "main.js": "/MOBEN/static/js/main.4c326da3.chunk.js",
-    "main.js.map": "/MOBEN/static/js/main.4c326da3.chunk.js.map",
+    "main.css": "/MOBEN/static/css/main.71b8f9de.chunk.css",
+    "main.js": "/MOBEN/static/js/main.0f1a329e.chunk.js",
+    "main.js.map": "/MOBEN/static/js/main.0f1a329e.chunk.js.map",
     "runtime-main.js": "/MOBEN/static/js/runtime-main.de3e48d1.js",
     "runtime-main.js.map": "/MOBEN/static/js/runtime-main.de3e48d1.js.map",
-    "static/js/2.04c5ef2a.chunk.js": "/MOBEN/static/js/2.04c5ef2a.chunk.js",
-    "static/js/2.04c5ef2a.chunk.js.map": "/MOBEN/static/js/2.04c5ef2a.chunk.js.map",
+    "static/js/2.09740ccd.chunk.js": "/MOBEN/static/js/2.09740ccd.chunk.js",
+    "static/js/2.09740ccd.chunk.js.map": "/MOBEN/static/js/2.09740ccd.chunk.js.map",
     "index.html": "/MOBEN/index.html",
-    "precache-manifest.d2486b0551ba847a3015a44e40218cf5.js": "/MOBEN/precache-manifest.d2486b0551ba847a3015a44e40218cf5.js",
+    "precache-manifest.858929351b4655e9f650ad75f7626bb5.js": "/MOBEN/precache-manifest.858929351b4655e9f650ad75f7626bb5.js",
     "service-worker.js": "/MOBEN/service-worker.js",
-    "static/css/main.a07efd1a.chunk.css.map": "/MOBEN/static/css/main.a07efd1a.chunk.css.map",
-    "static/js/2.04c5ef2a.chunk.js.LICENSE.txt": "/MOBEN/static/js/2.04c5ef2a.chunk.js.LICENSE.txt"
+    "static/css/main.71b8f9de.chunk.css.map": "/MOBEN/static/css/main.71b8f9de.chunk.css.map",
+    "static/js/2.09740ccd.chunk.js.LICENSE.txt": "/MOBEN/static/js/2.09740ccd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.de3e48d1.js",
-    "static/js/2.04c5ef2a.chunk.js",
-    "static/css/main.a07efd1a.chunk.css",
-    "static/js/main.4c326da3.chunk.js"
+    "static/js/2.09740ccd.chunk.js",
+    "static/css/main.71b8f9de.chunk.css",
+    "static/js/main.0f1a329e.chunk.js"
   ]
 }
