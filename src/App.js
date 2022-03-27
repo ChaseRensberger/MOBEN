@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Dashboard from './pages/Dashboard';
-import Analytics from './pages/Analytics';
-import Plan from './pages/Plan';
+import Dashboard from './pages/Dashboard/Dashboard';
+import Analytics from './pages/Analytics/Analytics';
+import Plan from './pages/Plan/Plan';
 
 function App() {
   return (
