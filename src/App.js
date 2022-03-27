@@ -20,7 +20,7 @@ const App = () => {
         <Navbar/>
         <div className='content'>
           <Switch>
-            <Route path='/' exact component={Dashboard} />
+            <Route path='/MOBEN' exact component={Dashboard} />
             <Route path='/plan' component={Plan} />
             <Route path='/analytics' component={Analytics} />   
           </Switch>
