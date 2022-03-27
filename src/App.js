@@ -10,19 +10,21 @@ import Plan from './pages/Plan/Plan';
 
 import Navbar from './components/Navbar';
 
-import theme from './theme';
+import theme from './components/theme';
 
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <Router>
-        <Navbar />
-        <Switch>
-          <Route path='/dashboard' exact component={Dashboard} />
-          <Route path='/plan' component={Plan} />
-          <Route path='/analytics' component={Analytics} />   
-        </Switch>
+        <Navbar/>
+        <div className='content'>
+          <Switch>
+            <Route path='/' exact component={Dashboard} />
+            <Route path='/plan' component={Plan} />
+            <Route path='/analytics' component={Analytics} />   
+          </Switch>
+        </div> 
       </Router>
     </ThemeProvider>
   );
