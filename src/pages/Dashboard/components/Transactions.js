@@ -11,7 +11,7 @@ const Transactions = () => {
   return (
     <Card sx={{ minWidth: 400 }}>
       <CardContent>
-        <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+        <Typography sx={{ fontSize: 14 }} color="text.secondary">
           Transactions
         </Typography>
         <Typography variant="h5" component="div">
