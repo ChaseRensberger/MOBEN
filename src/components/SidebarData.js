@@ -1,25 +1,26 @@
 import React from 'react';
-import * as FaIcons from 'react-icons/fa';
-import * as AiIcons from 'react-icons/ai';
-import * as IoIcons from 'react-icons/io';
+
+import MapIcon from '@mui/icons-material/Map';
+import GridViewIcon from '@mui/icons-material/GridView';
+import AssessmentIcon from '@mui/icons-material/Assessment';
 
 export const SidebarData = [
   {
     title: 'Dashboard',
     path: '/MOBEN',
-    icon: <AiIcons.AiFillDashboard />,
+    icon: <GridViewIcon/>,
     cName: 'nav-text'
   },
   {
     title: 'Plan',
     path: '/plan',
-    icon: <FaIcons.FaRegMap />,
+    icon: <MapIcon/>,
     cName: 'nav-text'
   },
   {
     title: 'Analytics',
     path: '/analytics',
-    icon: <IoIcons.IoIosAnalytics />,
+    icon: <AssessmentIcon/>,
     cName: 'nav-text'
   }
 ];

@@ -1,33 +1,50 @@
-import React from 'react';
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import Drawer from '@mui/material/Drawer';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
-import './Navbar.css';
-import { IconContext } from 'react-icons';
 
-function Navbar() {
 
+const drawerWidth = 180;
+
+const Navbar = () => {
   return (
-    <>
-      <IconContext.Provider value={{ color: '#fff' }}>
-
-        <nav className={'nav-menu active'}>
-          <ul className='nav-menu-items'>
-            
-            {SidebarData.map((item, index) => {
-              return (
-                <li key={index} className={item.cName}>
-                  <Link to={item.path}>
-                    {item.icon}
-                    <span>{item.title}</span>
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
-        </nav>
-      </IconContext.Provider>
-    </>
+    <Box sx={{ display: 'flex' }}>
+      
+      <Drawer
+        sx={{
+          width: drawerWidth,
+          flexShrink: 0,
+          '& .MuiDrawer-paper': {
+            width: drawerWidth,
+            boxSizing: 'border-box',
+          },
+        }}
+        variant="permanent"
+        anchor="left"
+      >
+        <List>
+          {SidebarData.map((item, index) => (
+            <Link to={item.path}>
+                <ListItem button key={index}>
+                    <ListItemIcon>
+                        {item.icon}
+                    </ListItemIcon>    
+                    <ListItemText primary={item.title}/>
+                </ListItem>
+            </Link>
+          ))}
+        </List>
+        
+      </Drawer>
+      
+    </Box>
   );
-}
+};
 
 export default Navbar;

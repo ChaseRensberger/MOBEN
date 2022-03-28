@@ -8,14 +8,14 @@ import Dashboard from './pages/Dashboard/Dashboard';
 import Analytics from './pages/Analytics/Analytics';
 import Plan from './pages/Plan/Plan';
 
-import Navbar from './components/Navbar';
+import Theme from './components/Theme';
 
-import theme from './components/theme';
+import Navbar from './components/Navbar';
 
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <ThemeProvider theme={Theme}>
       <Router>
         <Navbar/>
         <div className='content'>

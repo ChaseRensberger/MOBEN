@@ -1,7 +1,7 @@
 import { createTheme } from '@mui/material/styles';
 
 
-const theme = createTheme({
+const Theme = createTheme({
   palette: {
     primary: {
       main: '#FFFFFF',
@@ -18,19 +18,10 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: [
-      'Roboto',
-      '-apple-system',
-      'BlinkMacSystemFont',
-      '"Segoe UI"',
-      'Roboto',
-      '"Helvetica Neue"',
-      'Arial',
-      'sans-serif',
-      '"Apple Color Emoji"',
-      '"Segoe UI Emoji"',
-      '"Segoe UI Symbol"',
+      'Lora',
+      'sans-serif'
     ].join(','),
   },
 });
 
-export default theme;
+export default Theme;
