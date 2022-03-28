@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Box from '@mui/material/Box';
 
 const Analytics = () => {
   return (
-    <div className='analytics'>
+    <Box className='analytics' sx={{backgroundColor: 'secondary.main'}}>
       <h1>Analytics</h1>
-    </div>
+    </Box>
   );
 }
 

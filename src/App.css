@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:300,400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
 
 * {
   box-sizing: border-box;
@@ -18,7 +18,6 @@
   align-items: center;
   justify-content: space-around;
   font-size: 3rem;
-  background-color: #0069B6;
 }
 
 .analytics {
@@ -27,7 +26,6 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  background-color: #0069B6;
 }
 
 .plan {
@@ -36,5 +34,4 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  background-color: #0069B6;
 }

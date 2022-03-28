@@ -1,10 +1,11 @@
 import React from 'react';
+import Box from '@mui/material/Box';
 
 const Plan = () => {
   return (
-    <div className='plan'>
+    <Box className='plan' sx={{backgroundColor: 'secondary.main'}}>
       <h1>Plan</h1>
-    </div>
+    </Box>
   );
 }
 

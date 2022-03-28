@@ -6,7 +6,7 @@ import ListItem from '@mui/material/ListItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 
-import { Link } from 'react-router-dom';
+import Link from '@mui/material/Link';
 import { SidebarData } from './SidebarData';
 
 
@@ -30,7 +30,7 @@ const Navbar = () => {
       >
         <List>
           {SidebarData.map((item, index) => (
-            <Link to={item.path}>
+            <Link href={item.path} underline="none">
                 <ListItem button key={index}>
                     <ListItemIcon>
                         {item.icon}

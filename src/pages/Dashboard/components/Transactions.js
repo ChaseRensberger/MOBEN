@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 
 const Transactions = () => {
   return (
-    <Card sx={{ minWidth: 400 }}>
+    <Card sx={{ minWidth: 400 }} elevation={100}>
       <CardContent>
         <Typography sx={{ fontSize: 14 }} color="text.primary">
           Transactions
