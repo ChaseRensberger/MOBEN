@@ -9,17 +9,14 @@ const Theme = createTheme({
       main: '#0069B6',
     },
     background: {
-      paper: '#005A9C'
+      paper: '#005A9C',
     },
     text: {
-      primary: '#F8F0E3'
-    }
+      primary: '#F8F0E3',
+    },
   },
   typography: {
-    fontFamily: [
-      'Lora',
-      'sans-serif'
-    ].join(','),
+    fontFamily: ['Lora', 'sans-serif'].join(','),
   },
 });
 

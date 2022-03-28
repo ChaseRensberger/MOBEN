@@ -9,13 +9,11 @@ import ListItemText from '@mui/material/ListItemText';
 import Link from '@mui/material/Link';
 import { SidebarData } from './SidebarData';
 
-
 const drawerWidth = 180;
 
 const Navbar = () => {
   return (
     <Box sx={{ display: 'flex' }}>
-      
       <Drawer
         sx={{
           width: drawerWidth,
@@ -31,18 +29,14 @@ const Navbar = () => {
         <List>
           {SidebarData.map((item, index) => (
             <Link href={item.path} underline="none">
-                <ListItem button key={index}>
-                    <ListItemIcon>
-                        {item.icon}
-                    </ListItemIcon>    
-                    <ListItemText primary={item.title}/>
-                </ListItem>
+              <ListItem button key={index}>
+                <ListItemIcon>{item.icon}</ListItemIcon>
+                <ListItemText primary={item.title} />
+              </ListItem>
             </Link>
           ))}
         </List>
-        
       </Drawer>
-      
     </Box>
   );
 };
